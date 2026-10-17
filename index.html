@@ -12,19 +12,23 @@
         button:hover { background-color: #e0961f; }
         #painel-status { margin-top: 20px; padding: 15px; background: #1e1e24; border-radius: 5px; border-left: 4px solid #f9a826; min-height: 80px; font-size: 18px; }
         .destaque { color: #f9a826; font-weight: bold; font-size: 22px; }
+        #btn-gerar { display: none; margin-top: 15px; background-color: #2e7d32; color: white; }
+        #btn-gerar:hover { background-color: #1b5e20; }
     </style>
 </head>
 <body>
 
     <div class="container">
         <h1>Mesa de Luz - HQ Seinen</h1>
-        <p>Motor de Linha do Tempo: Conectado ao Firebase.</p>
+        <p>Motor de Linha do Tempo: Conectado ao Firebase e AI Studio.</p>
         
-        <button id="btn-proximo">Verificar Próximo Capítulo Pendente</button>
+        <button id="btn-proximo">1. Verificar Próximo Capítulo Pendente</button>
         
         <div id="painel-status">
             Aguardando comando...
         </div>
+        
+        <button id="btn-gerar">2. Gerar Roteiro com IA</button>
     </div>
 
     <!-- Importando o seu arquivo JavaScript como Módulo -->
