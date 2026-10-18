@@ -12,7 +12,7 @@ const firebaseConfig = {
 };
 
 // SUA NOVA CHAVE DO AI STUDIO
-const GEMINI_API_KEY = "AQ.Ab8RN6ICstuvJBAzBbxE3mHs3FJRy6tfeze-jJW6RvfZMcTs0Q";
+const GEMINI_API_KEY = "AQ.Ab8RN6LA1f3v8qpiO2uAVdBecJbOHPEVge5UQTLFikTjSPmocA";
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
